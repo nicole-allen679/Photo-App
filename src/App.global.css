@@ -19,6 +19,28 @@ body {
   align-items: center;
 }
 
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 1;
+  width: 100vw;
+  padding: 16px;
+}
+
+.save-btn{
+  position:fixed;
+  top: 36px;
+  right: 8px;
+  z-index: 20;
+  background-color: violet;
+}
+
+.crop-area{
+  top: 44px;
+}
+
 button {
   background-color: white;
   padding: 10px 20px;
